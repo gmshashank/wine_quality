@@ -21,14 +21,11 @@ https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sha
 '''bash
 git init
 dvc init
-
 dvc add data_given/winequality.csv
-
 git add .
 git commit -m "first commit"
-
 git branch -M main
 git remote add origin git@github.com:gmshashank/wine_quality.git
-
+git add . && git commit -m "updated README.md"
 git push origin main
 '''
