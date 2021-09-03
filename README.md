@@ -30,3 +30,7 @@ git remote add origin git@github.com:gmshashank/wine_quality.git
 git add . && git commit -m "updated README.md"
 git push origin main
 ```
+after stage in dvc.yaml
+```bash
+dvc repro
+```
