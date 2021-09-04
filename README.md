@@ -33,4 +33,6 @@ git push origin main
 after stage in dvc.yaml
 ```bash
 dvc repro
+dvc metrics show
+dvc metrics diff
 ```
