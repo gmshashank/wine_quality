@@ -13,12 +13,7 @@ for dir_ in dirs:
     with open(os.path.join(dir_, ".gitkeep"), "w") as f:
         pass
 
-files = [
-    "dvc.yaml",
-    "params.yaml",
-    ".gitignore",
-    os.path.join("src", "__init__.py"),
-]
+files = ["dvc.yaml", "params.yaml", ".gitignore", os.path.join("src", "__init__.py")]
 
 for file_ in files:
     with open(file_, "w") as f:
