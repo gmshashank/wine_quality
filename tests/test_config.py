@@ -13,7 +13,7 @@ def test_generic():
         if a not in range(10, 20):
             raise notInRange
 
-def abc():
+def test_abc():
     a=5
     b=5
     assert True

@@ -5,6 +5,7 @@
 black
 dvc
 dvc[gdrive]
+flake8
 pandas
 sklearn
 pytest
