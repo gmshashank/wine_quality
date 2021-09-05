@@ -6,5 +6,5 @@ setup(
     description="Wine qualtiy classification package",
     author="gmshashank",
     packages=find_packages(),
-    license="MIT"
+    license="MIT",
 )
