@@ -12,3 +12,8 @@ def test_generic():
     with pytest.raises(notInRange):
         if a not in range(10, 20):
             raise notInRange
+
+def abc():
+    a=5
+    b=5
+    assert True
