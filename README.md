@@ -36,3 +36,28 @@ dvc repro
 dvc metrics show
 dvc metrics diff
 ```
+
+tox command
+```bash
+tox
+```
+
+for rebuilding
+```bash
+tox -r
+```
+
+pytest command
+```bash
+pytest -v
+```
+
+setup commands
+```bash
+pip install -e .
+```
+
+build own package
+```bash
+python setup.py sdist bdist_wheel
+```

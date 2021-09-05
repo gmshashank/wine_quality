@@ -1,3 +1,7 @@
+# local packages
+-e .
+
+# third party packages
 black
 dvc
 dvc[gdrive]
