@@ -6,6 +6,8 @@ black
 dvc
 dvc[gdrive]
 flake8
+flask
+gunicorn
 pandas
 sklearn
 pytest
