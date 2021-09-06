@@ -55,7 +55,7 @@ def validate_input(dict_request):
             raise NotInCols
 
     def _validate_values(col, val):
-        schema = get_schema
+        schema = get_schema()
         if not (schema[col]["min"] <= float(dict_request[col]) <= schema[col]["max"]):
             raise NotInRange
 
@@ -66,7 +66,7 @@ def validate_input(dict_request):
     return True
 
 
-def fom_response(dict_request):
+def form_response(dict_request):
     if validate_input(dict_request):
         data = dict_request.values()
         data = [list(map(float, data))]
