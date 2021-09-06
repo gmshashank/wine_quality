@@ -61,3 +61,12 @@ build own package
 ```bash
 python setup.py sdist bdist_wheel
 ```
+
+
+mlflow server commands
+```
+mlflow server \
+    --backend-store-uri sqlite:///mlflow.db \
+    --default-artifact-root ./artifacts \
+    --host 0.0.0.0 -p 1234
+```

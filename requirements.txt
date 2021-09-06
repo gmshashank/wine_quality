@@ -8,6 +8,7 @@ dvc[gdrive]
 flake8
 flask
 gunicorn
+mlflow
 pandas
 sklearn
 pytest
